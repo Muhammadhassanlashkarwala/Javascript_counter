@@ -6,6 +6,12 @@ function aDDing() {
 }
 
 function rEset() {
-    let reset = document.getElementById("increment").innerText = "0"
+    let reset = document.getElementById("reset").innerText = "0"
     console.log(reset);
+}
+
+function sUbtracting() {
+    value--
+    let subtract = document.getElementById("decrement").innerText = value
+    console.log(subtract);
 }
