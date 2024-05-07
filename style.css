@@ -73,3 +73,9 @@ body{
             transition: 0.5s;
             transform: scale(1.01);
         }
+        button#reset:hover{
+            background: rgb(182, 83, 170);
+            color: #000;
+            transition: 0.5s;
+            transform: scale(1.01);
+        }
