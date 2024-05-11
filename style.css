@@ -23,7 +23,7 @@ body{
             font-size: 4rem;
             /* margin: 2rem; */
             /* border: 2rem solid black ; */
-            padding: 3rem;
+            padding: 2rem;
 }
 .card-containEr h2{
     color:  rgb(182, 83, 170);
@@ -31,7 +31,7 @@ body{
                 font-size: 3rem;
                 margin: 2rem;
                 /* border: 2rem solid black ; */
-                padding: 3rem;
+                padding: 2rem;
     }
     .card-body h1{
         margin-bottom: 15px;
