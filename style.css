@@ -1,4 +1,4 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
 }
@@ -75,4 +75,164 @@ body{
             color: #000;
             transition: 0.5s;
             transform: scale(1.01);
+        } */
+
+
+
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
         }
+        
+        html,
+        body {
+            height: 100%;
+        }
+        
+        body {
+            background: rgb(255, 132, 100);
+            background: linear-gradient(
+                90deg,
+                rgb(182, 83, 170) 0%,
+                rgba(253, 105, 165, 1) 100%
+            );
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        .card-container h1 {
+            color: rgba(253, 105, 165, 1);
+            background: black;
+            font-size: 4rem;
+            padding: 2rem;
+        }
+        
+        .card-container h2 {
+            color: rgb(182, 83, 170);
+            background: black;
+            font-size: 3rem;
+            margin: 2rem;
+            padding: 2rem;
+        }
+        
+        .card-body h1 {
+            margin-bottom: 15px;
+            font-size: 70px;
+        }
+        
+        .card-btn button {
+            color: rgba(253, 105, 165, 1);
+            padding: 10px 35px;
+            background: black;
+            border: 0;
+            font-size: 15px;
+            font-weight: bold;
+            margin: 0px 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        
+        .card-btn #reset {
+            color: rgb(182, 83, 170);
+            padding: 10px 35px;
+            background: black;
+            border: 0;
+            font-size: 15px;
+            font-weight: bold;
+            margin: 0px 5px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.5s;
+        }
+        
+        button#decrement:hover,
+        button#increment:hover,
+        button#reset:hover {
+            background: rgba(253, 105, 165, 1);
+            color: #000;
+            transition: 0.5s;
+            transform: scale(1.01);
+        }
+        
+        /* Media Queries for responsiveness */
+        
+        /* For tablets and smaller laptops */
+        @media only screen and (max-width: 1024px) {
+            .card-container h1 {
+                font-size: 3rem;
+                padding: 1.5rem;
+            }
+        
+            .card-container h2 {
+                font-size: 2rem;
+                margin: 1.5rem;
+                padding: 1.5rem;
+            }
+        
+            .card-body h1 {
+                font-size: 50px;
+            }
+        }
+        
+        /* For smaller devices like phones */
+        @media only screen and (max-width: 768px) {
+            .card-container h1 {
+                font-size: 2.5rem;
+                padding: 1rem;
+            }
+        
+            .card-container h2 {
+                font-size: 1.5rem;
+                margin: 1rem;
+                padding: 1rem;
+            }
+        
+            .card-body h1 {
+                font-size: 40px;
+            }
+        
+            .card-btn button {
+                padding: 8px 30px;
+                font-size: 14px;
+            }
+        
+            .card-btn #reset {
+                padding: 8px 30px;
+                font-size: 14px;
+            }
+        }
+        
+        /* For even smaller devices like small phones */
+        @media only screen and (max-width: 480px) {
+            .card-container h1 {
+                font-size: 2rem;
+                padding: 0.5rem;
+            }
+        
+            .card-container h2 {
+                font-size: 1.5rem;
+                margin: 1rem;
+                padding: 1rem;
+            }
+        
+            .card-body h1 {
+                font-size: 30px;
+            }
+        
+            .card-btn button {
+                padding: 6px 25px;
+                font-size: 12px;
+            }
+        
+            .card-btn #reset {
+                padding: 6px 25px;
+                font-size: 12px;
+            }
+        }
+        
