@@ -1,90 +1,8 @@
-/* *{
-    margin: 0;
-    padding: 0;
-}
-html,
-body{
-    height: 100%;
-}
-
-body{
-    background: rgb(255, 132, 100);
-    background: linear-gradient(
-         90deg,
-          rgb(182, 83, 170) 0%,
-            rgba(253, 105, 165, 1)100%
-    );
-    text-align: center;
-    align-items: center;
-}
-.card-containEr h1{
-    color:  rgba(253, 105, 165, 1);
-            background: black;
-            font-size: 4rem;
-            padding: 2rem;
-}
-.card-containEr h2{
-    color:  rgb(182, 83, 170);
-                background: black;
-                font-size: 3rem;
-                margin: 2rem;
-                padding: 2rem;
-    }
-    .card-body h1{
-        margin-bottom: 15px;
-        font-size: 70px;
-    }
-    .card-btn button{
-        color: rgba(253, 105, 165, 1);
-        padding: 10px 35px;
-          background: black;
-        border: 0;
-        font-size: 15px;
-        font-weight: bold;
-        margin: 0px 5px;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: 0.5s;
-        }
-    .card-btn #reset{
-            color:  rgb(182, 83, 170);
-            padding: 10px 35px;
-              background: black;
-            border: 0;
-            font-size: 15px;
-            font-weight: bold;
-            margin: 0px 5px;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: 0.5s;
-        }
-        button#decrement:hover{
-            background:rgba(253, 105, 165, 1);
-            color: #000;
-            transition: 0.5s;
-            transform: scale(1.01);
-        }
-        button#increment:hover{
-            background:rgba(253, 105, 165, 1);
-            color: #000;
-            transition: 0.5s;
-            transform: scale(1.01);
-        }
-        button#reset:hover{
-            background: rgb(182, 83, 170);
-            color: #000;
-            transition: 0.5s;
-            transform: scale(1.01);
-        } */
-
-
-
-
-
-        * {
+  * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
+         margin-top: 1.3rem;
         }
         
         html,
@@ -105,19 +23,19 @@ body{
             align-items: center;
         }
         
-        .card-container h1 {
+        .card-containEr h1 {
             color: rgba(253, 105, 165, 1);
             background: black;
-            font-size: 4rem;
-            padding: 2rem;
+            font-size: 3rem;
+            padding: 1rem;
         }
         
-        .card-container h2 {
+        .card-containEr h2 {
             color: rgb(182, 83, 170);
             background: black;
-            font-size: 3rem;
+            font-size: 2rem;
             margin: 2rem;
-            padding: 2rem;
+            padding: 1rem;
         }
         
         .card-body h1 {
@@ -160,6 +78,12 @@ body{
             transform: scale(1.01);
         }
         
+        button#reset:hover {
+            background:  rgb(182, 83, 170);
+            color: #000;
+            transition: 0.5s;
+            transform: scale(1.01);
+        }
         /* Media Queries for responsiveness */
         
         /* For tablets and smaller laptops */
@@ -213,6 +137,7 @@ body{
             .card-container h1 {
                 font-size: 2rem;
                 padding: 0.5rem;
+
             }
         
             .card-container h2 {
