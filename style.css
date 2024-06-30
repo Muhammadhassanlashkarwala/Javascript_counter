@@ -2,7 +2,6 @@
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-         margin-top: 1.3rem;
         }
         
         html,
@@ -20,6 +19,8 @@
             text-align: center;
             display: flex;
             flex-direction: column;
+            
+            /* justify-content: center; */
             align-items: center;
         }
         
@@ -27,7 +28,9 @@
             color: rgba(253, 105, 165, 1);
             background: black;
             font-size: 3rem;
+            margin-top: 5rem;
             padding: 1rem;
+            border-radius: 5px;
         }
         
         .card-containEr h2 {
@@ -36,6 +39,7 @@
             font-size: 2rem;
             margin: 2rem;
             padding: 1rem;
+            border-radius: 5px;
         }
         
         .card-body h1 {
